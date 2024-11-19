@@ -274,7 +274,7 @@ const data = [
 app.use(express.json());
 app.use(cors());
 
-app.get('/data', (req, res) => {
+app.get('/api/data', (req, res) => {
   res.json(data);
 });
 
